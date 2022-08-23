@@ -132,7 +132,7 @@ where
             value += 1 << 5;
         }
         if ps_active {
-            value += 1 << 2;
+            value += 3;
         }
 
         self.write_register(Register::PS_CONTR, value)
